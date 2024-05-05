@@ -1,0 +1,57 @@
+body{
+	background: NavajoWhite;
+	border: 15px;
+	padding: 20px;
+	margin: 20px;
+}
+.navigation{
+	font-size: 20px;
+	background-color: Moccasin; 
+	border-bottom: 2px solid #D2B48C;
+	position: fixed;
+	z-index:10;
+	width: 100%;
+	top: 10px;
+}
+.title{
+	font-size: 35px;
+	font-family: Garamond, serif;
+	text-align: center;
+	color: Sienna;
+	position: relative;
+}
+h1{
+	font-size:25px;
+	font-family: Garamond, serif;
+	text-align: center;
+	color: Sienna;
+}
+
+/*Block elements T3*/
+h2 > p > ul{              /*Contexual attribte T2*/
+	font-size: 20px;
+	font-family: Garamond, serif;
+	text-align: left;
+	color: Sienna;
+	display: block; 
+}
+
+.TSA{
+	max-width: 50%;
+	max-height: 50%;
+	display: inline-block;
+	
+}
+
+.media01{
+	max-width: 70%;
+	max-height:70%;
+	
+}
+
+.tips{
+	border: 2px solid DarkSalmon;
+	margin: 10px;
+	padding: 20px;
+	display: inline-block;
+}

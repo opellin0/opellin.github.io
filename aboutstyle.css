@@ -1,0 +1,48 @@
+body{
+	background: NavajoWhite;
+	border: 15px;
+	padding: 20px;
+	margin: 20px;
+}
+	
+.navigation{
+	font-size: 20px;
+	background-color: Moccasin; 
+	border-bottom: 2px solid #D2B48C;
+	position: fixed;     /*experiment with posistioning T3*/
+
+	z-index:10;
+	width: 100%;
+	top: 10px;
+}
+h1{
+    font-size: 30px;
+	font-family: Garamond, serif;
+	text-align: left;
+	color: Sienna;
+	display: block;
+	font-weight: 800;
+	}
+h3{
+	font-size:25px;
+	font-family: Garamond, serif;
+	color: Sienna;
+	
+}
+.rectangle{                         /*floating layout T3*/
+
+	background-color: DarkSeaGreen;
+	box-sizing: border-box;
+	padding: 20px;
+	text-align: left;
+	width: 90%;
+	position: relative;
+	top: 15px;
+}
+
+.photogallery{
+	display: inline-block;
+	margin: 10px;
+	max-width: 70%;
+	max-height: 70%;
+}
